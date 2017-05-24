@@ -1,1 +1,107 @@
-theme: jekyll-theme-slate
+# Site configuration
+# 1. Files excluded from Jekyll builds
+# 2. Installed Gems
+# 3. Gem settings
+# 4. Jekyll settings
+# 5. Collections
+# 6. Jekyll collections settings
+# 7. Site settings
+# 8. Site navigation
+
+# 1. Files excluded from Jekyll builds
+exclude:
+- README.md
+- screenshot.png
+- LICENSE
+- CNAME
+- Gemfile
+- Gemfile.lock
+- demo/*
+- alembic-jekyll-theme.gemspec
+
+# 2. Installed Gems
+gems:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-redirect-from
+- jekyll-feed
+- jemoji
+- jekyll-seo-tag
+
+# 3. Gem settings
+paginate: 3 # jekyll-paginate > items per page
+paginate_path: blog/page:num # jekyll-paginate > blog page
+jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
+twitter:
+  username: isislab # jekyll-seo-tag > Owners twitter username
+author: isislab # jekyll-seo-tag > default author
+social: # jekyll-seo-tag > social overrides
+  name: isislab # jekyll-seo-tag > real name
+  links:  # jekyll-seo-tag > social aliases (sameAs)
+    - https://twitter.com/isislab
+    - https://www.facebook.com/nyupolyisislab
+    - https://github.com/isislab
+
+# 4. Jekyll settings
+sass:
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+timezone: America/New_York # Timezone for blog posts and alike
+
+# 5. Collections
+collections:
+  posts:
+    title: Research # Needed for Siteleaf
+    output: true
+    description: "HACKIT" # The post list page content
+    feature_text: |
+      
+    feature_image: "http://i.imgur.com/ypQdpc2.png"
+
+
+# 7. Site settings
+encoding: utf-8 # Make sure the encoding is right
+title: "OSIRIS" # Site name or title, also used in jekyll-seo-tag
+logo: "/assets/placeholder-logo.svg" # Site logo, also used in jekyll-seo-tag
+# 6. Jekyll collections settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: page # Default layout
+      image: "/assets/placeholder-social.png" # Default image for sharing
+  -
+    scope:
+      path: ""
+      type: posts 
+    values:
+      layout: post # Default layout
+      image: "/assets/placeholder-social.png" # Default image for sharing
+
+# 8. Site navigation
+navigation_header:
+  Home: /
+  Getting Involved: /Getting_Involved/
+  Industry: /Industry/
+  Members: /Members/
+  Research: /Categories/
+  Mailing List: /Mailing_List/
+
+social_links:
+  Twitter: https://twitter.com/isislab
+  GitHub: https://github.com/isislab
+
+sharing_links:
+  Twitter: "#1DA1F2"
+  facebook: "#3B5998"
+  Google+: "#DC4E41"
+  Pinterest: "#BD081C"
+  tumblr: "#36465D"
+  Reddit: "#FF4500"
+  Hacker News: "#ff6600"
+  Designer News: "#2D72D9"
+  Email: ""

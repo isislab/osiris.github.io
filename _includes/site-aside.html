@@ -1,0 +1,30 @@
+<aside class="aside  typeset">
+
+  {% unless page.layout == "categories" or page.collection == "posts" %}
+<iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=vru0uio3jjsbmqs3gin41uo5g8%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=America%2FNew_York" style="border:solid 1px #777" width="390" height="600" frameborder="0" scrolling="no"></iframe>
+      {% endunless %}
+
+  {% unless page.layout == "categories" or page.layout == "search" or page.collection == "posts" or paginator.posts %}
+    {% include post-list.html %}
+  {% endunless %}
+
+  {% if page.layout == "categories" %}
+    <section class="section  section--category-index">
+      <h3>Index</h3>
+      {% include nav-categories.html %}
+    </section>
+  {% endif %}
+
+  {% if page.collection == "posts" %}
+    {% include post-related.html %}
+  {% endif %}
+
+  {% if page.collection == "posts" or paginator.posts %}
+    {% include button.html text="Subscribe to posts &nbsp;" icon="rss" link="/feed.xml" %}
+  {% endif %}
+
+  {% unless page.layout == "categories" %}
+    {% include nav-social.html %}
+  {% endunless %}
+
+</aside>

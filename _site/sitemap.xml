@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/csaw/2015/10/03/CSAW-CTF-2015-VM/</loc>
+<lastmod>2015-10-03T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/csaw/2016/06/11/CSAW-CTF-2015-VM/</loc>
+<lastmod>2016-06-11T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/csaw/2017/04/25/CSAW-CTF-2016-FINALS-Problems-repo-release/</loc>
+<lastmod>2017-04-25T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/Getting_Involved/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/Industry/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/categories/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/members/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/search/</loc>
+</url>
+</urlset>
