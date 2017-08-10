@@ -57,7 +57,7 @@ collections:
     output: true
     description: "HACKIT" # The post list page content
     feature_text: |
-      
+
     feature_image: "http://i.imgur.com/ypQdpc2.png"
 
 
@@ -77,7 +77,7 @@ defaults:
   -
     scope:
       path: ""
-      type: posts 
+      type: posts
     values:
       layout: post # Default layout
       image: "/assets/placeholder-social.png" # Default image for sharing
@@ -85,11 +85,11 @@ defaults:
 # 8. Site navigation
 navigation_header:
   Home: /
-  Getting Involved: /Getting_Involved/
-  Industry: /Industry/
-  Members: /Members/
-  Research: /Categories/
-  Mailing List: /Mailing_List/
+  Getting Involved: Getting_Involved/
+  Industry: Industry/
+  Members: Members/
+  Research: Categories/
+  Mailing List: Mailing_List/
 
 social_links:
   Twitter: https://twitter.com/isislab
