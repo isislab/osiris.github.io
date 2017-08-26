@@ -58,7 +58,7 @@ collections:
 encoding: utf-8 # Make sure the encoding is right
 title: "OSIRIS" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/placeholder-logo.svg" # Site logo, also used in jekyll-seo-tag
-baseurl: kylemiles.github.io/osiris.github.io/
+baseurl: "https://kylemiles.github.io/osiris.github.io/"
 # 6. Jekyll collections settings
 defaults:
   -
