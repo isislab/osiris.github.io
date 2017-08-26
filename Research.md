@@ -1,6 +1,9 @@
 ---
+layout: page
 title: Research
 layout: categories
 excerpt: "Category index"
+permalink: /research/
 ---
-asdasdasdasd
+
+What we've found:

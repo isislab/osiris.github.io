@@ -1,8 +1,8 @@
 <aside class="aside  typeset">
 
-  {% unless page.layout == "categories" or page.collection == "posts" %}
+  {% if page.layout == "home" %}
 <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=vru0uio3jjsbmqs3gin41uo5g8%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=America%2FNew_York" style="border:solid 1px #777" width="390" height="600" frameborder="0" scrolling="no"></iframe>
-      {% endunless %}
+      {% endif %}
 
   {% unless page.layout == "categories" or page.layout == "search" or page.collection == "posts" or paginator.posts %}
     {% include post-list.html %}
