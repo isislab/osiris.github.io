@@ -12,6 +12,10 @@ layout: default
 
     {{ content }}
 
+    {% unless page.layout == "categories" or page.layout == "search" or page.collection == "posts" or paginator.posts %}
+      {% include post-list.html %}
+    {% endunless %}
+
   </article>
 
   {% include site-aside.html %}
