@@ -78,11 +78,11 @@ defaults:
 
 # 8. Site navigation
 navigation_header:
-  Getting Involved: gettingInvolved/
-  Industry: industry/
-  Members: members/
-  Research: research/
-  Mailing List: mailinglist/
+  Getting Involved: /gettingInvolved/
+  Industry: /industry/
+  Members: /members/
+  Research: /research/
+  Mailing List: /mailinglist/
 
 social_links:
   Twitter: https://twitter.com/isislab
