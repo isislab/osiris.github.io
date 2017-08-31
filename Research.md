@@ -1,8 +1,6 @@
 ---
-layout: page
-title: Research
 layout: categories
-excerpt: "Category index"
+title: Research
 permalink: /research/
 ---
 
