@@ -46,22 +46,6 @@ permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: America/New_York # Timezone for blog posts and alike
 
-# 5. Collections
-collections:
-  posts:
-    title: Research # Needed for Siteleaf
-    output: true
-    description: "HACKIT" # The post list page content
-    feature_text: |
-
-    feature_image: "http://i.imgur.com/ypQdpc2.png"
-
-
-# 7. Site settings
-encoding: utf-8 # Make sure the encoding is right
-title: "OSIRIS" # Site name or title, also used in jekyll-seo-tag
-logo: "/osiris.github.io/assets/placeholder-logo.svg" # Site logo, also used in jekyll-seo-tag
-logoLink: /osiris.github.io/
 
 # 6. Jekyll collections settings
 defaults:
@@ -79,6 +63,12 @@ defaults:
     values:
       layout: post # Default layout
       image: "/assets/placeholder-social.png" # Default image for sharing
+
+# 7. Site settings
+encoding: utf-8 # Make sure the encoding is right
+title: "OSIRIS" # Site name or title, also used in jekyll-seo-tag
+logo: "https://osiris.cyber.nyu.edu/wp-content/uploads/2015/11/OSIRIS_LOGO_HORIZONTAL_MIXED.png" # Site logo, also used in jekyll-seo-tag
+logoLink: /osiris.github.io/
 
 # 8. Site navigation
 navigation_header:
