@@ -86,11 +86,16 @@ navigation_header:
   Industry: /osiris.github.io/industry/
   Members: /osiris.github.io/members/
   Research: /osiris.github.io/research/
-  Mailing List: /osiris.github.io/mailinglist/
+  Newsletter: /osiris.github.io/newsletter/
+
+navigation_footer:
+  Contact: /osiris.github.io/contact/
+  CSAW: https://csaw.engineering.nyu.edu/
 
 social_links:
-  Twitter: https://twitter.com/isislab
+  Facebook: https://www.facebook.com/nyupolyisislab
   GitHub: https://github.com/isislab
+  Twitter: https://twitter.com/isislab
 
 sharing_links:
   Twitter: "#1DA1F2"
