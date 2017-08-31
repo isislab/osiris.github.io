@@ -20,13 +20,13 @@
 {% else %}
 	<h3>Latest blog posts</h3>
 	<ul class="list  list--posts">
-		{% for page in site.posts limit: 4 %}
+		{% for page in site.posts limit: 2 %}
 			<li class="item  item--post">
 				<article class="article  article--post">
 
 					<h4><a href="{{ page.url }}" title="Post - {{ page.title }}">{{ page.title }}</a></h4>
 					{% include post-meta.html %}
-					{{ page.excerpt | markdownify | truncatewords: 60 }}
+					{{ page.excerpt | markdownify | truncatewords: 30 }}
 
 				</article>
 			</li>
