@@ -5,17 +5,16 @@
     <a class="twitter-timeline" href="https://twitter.com/isislab">Tweets by isislab</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
   {% else if page.layout == "categories" %}
-    <section class="section  section--category-index">
-      <h3>Index</h3>
-      {% include nav-categories.html %}
-    </section>
-  {% endif %}
-
-  {% if page.collection == "posts" %}
-    {% include post-related.html %}
+    {% if page.title == "Research" %}
+      <section class="section  section--category-index">
+        <h3>Index</h3>
+        {% include nav-categories.html %}
+      </section>
+    {% endif %}
   {% endif %}
 
   {% if page.collection == "posts" or paginator.posts %}
+    {% include post-related.html %}
     {% include button.html text="Subscribe to posts &nbsp;" icon="rss" link="/feed.xml" %}
   {% endif %}
 
