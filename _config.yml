@@ -46,24 +46,6 @@ permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: America/New_York # Timezone for blog posts and alike
 
-
-# 6. Jekyll collections settings
-defaults:
-  -
-    scope:
-      path: ""
-      type: pages
-    values:
-      layout: page # Default layout
-      image: "/assets/placeholder-social.png" # Default image for sharing
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      layout: post # Default layout
-      image: "/assets/placeholder-social.png" # Default image for sharing
-
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 title: "OSIRIS" # Site name or title, also used in jekyll-seo-tag
@@ -81,6 +63,7 @@ navigation_header:
 navigation_footer:
   Sign Up: /osiris.github.io/newsletter/
   Contact: /osiris.github.io/contact/
+  HackNight: http://hn.csaw.io/
   CSAW: https://csaw.engineering.nyu.edu/
 
 social_links:
