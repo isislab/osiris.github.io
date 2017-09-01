@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Getting Involved
-permalink: /gettingInvolved/
+permalink: /gettinginvolved/
 ---
 # Cyber Security Club
 
