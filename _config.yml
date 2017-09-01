@@ -53,6 +53,7 @@ logo: "https://osiris.cyber.nyu.edu/wp-content/uploads/2015/11/OSIRIS_LOGO_HORIZ
 logoLink: /osiris.github.io/
 
 # 8. Site navigation
+  # When these links change, also change line 9 in _includes/nav-header.html
 navigation_header:
   Getting Involved: /osiris.github.io/gettinginvolved/
   Industry: /osiris.github.io/industry/
