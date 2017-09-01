@@ -4,7 +4,7 @@
     {% for item in site.navigation_header %}
 
       {% if item[0] == "Newsletter" %}
-        {% include button.html text="Newletter" link="/osiris.github.oi/newsletter/" color="#660087" %}
+        {% include button.html text="Newletter" link="/osiris.github.io/newsletter/" color="#660087" %}
       {% else %}
         <li class="item  item--nav{% if item[1] == page.url %}  item--current{% endif %}">
           <a href="{{ item[1] }}" title="Page - {{ item[0] }}">{{ item[0] }}</a>
