@@ -89,6 +89,21 @@ body {
   }
 }
 
+#wrapper {
+     width: 1005px;
+     margin: auto;
+}
+#leftcolumn, #rightcolumn {
+    float: left;
+    min-height: 500px;
+}
+#leftcolumn {
+     width: 50%;
+}
+#rightcolumn {
+     width: 50%;
+}
+
 
 // Nav and copyright
 .nav {

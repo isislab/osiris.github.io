@@ -2,16 +2,27 @@
 layout: default
 ---
 
+<!-- Facebook depends on this -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Cite -->
 {% include site-header.html %}
 
-<main class="main  container">
+<main class="main container">
 
-	<article class="article  article--page  content  content--aside  typeset">
+	<article class="article article--page content content--aside typeset">
 
 		{% if page.title %}
       <h1>{{ page.title }}</h1>
 		{% endif %}
-		
+
 		{{ content }}
 
     {% unless page.layout == "categories" or page.layout == "search" or page.collection == "posts" or paginator.posts %}
@@ -23,5 +34,15 @@ layout: default
   {% include site-aside.html %}
 
 </main>
+
+<div id="wrapper">
+  <div id="leftcolumn">
+		<div class="fb-page" data-href="https://www.facebook.com/osirislab" data-tabs="timeline" data-width="500" data-height="500" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/osirislab" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/osirislab">Offensive Security, Incident Response, and Information Security Lab</a></blockquote></div>
+	</div>
+
+	<div id="rightcolumn">
+		<a class="twitter-timeline" data-height="500" data-theme="dark" data-link-color="#19CF86" href="https://twitter.com/isislab">Tweets by isislab</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div>
+</div>
 
 {% include site-footer.html %}
