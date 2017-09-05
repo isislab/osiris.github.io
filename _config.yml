@@ -50,20 +50,20 @@ timezone: America/New_York # Timezone for blog posts and alike
 encoding: utf-8 # Make sure the encoding is right
 title: "OSIRIS" # Site name or title, also used in jekyll-seo-tag
 logo: "https://osiris.cyber.nyu.edu/wp-content/uploads/2015/11/OSIRIS_LOGO_HORIZONTAL_MIXED.png" # Site logo, also used in jekyll-seo-tag
-logoLink: /osiris.github.io/
+logoLink: /
 
 # 8. Site navigation
   # When these links change, also change line 9 in _includes/nav-header.html
 navigation_header:
-  Getting Involved: /osiris.github.io/gettinginvolved/
-  Industry: /osiris.github.io/industry/
-  Members: /osiris.github.io/members/
-  Research: /osiris.github.io/research/
-  Newsletter: /osiris.github.io/newsletter/
+  Getting Involved: /gettinginvolved/
+  Industry: /industry/
+  Members: /members/
+  Research: /research/
+  Newsletter: /newsletter/
 
 navigation_footer:
-  Sign Up: /osiris.github.io/newsletter/
-  Contact: /osiris.github.io/contact/
+  Sign Up: /newsletter/
+  Contact: /contact/
   HackNight: http://hn.csaw.io/
   CSAW: https://csaw.engineering.nyu.edu/
 
