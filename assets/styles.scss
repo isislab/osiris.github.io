@@ -178,7 +178,7 @@ body {
 .aside {
   max-width: 100%;
   @include breakpoint(break-1) {
-    max-width: 34%;
+    max-width: 20%;
     @include flex(1, 0, auto);
   }
 }

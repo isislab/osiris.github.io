@@ -4,4 +4,4 @@ title: Newsletter
 permalink: /newsletter/
 ---
 
-Well, this seems to be the news letter.
+{% include site-form.html %}

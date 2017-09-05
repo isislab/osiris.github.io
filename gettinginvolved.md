@@ -1,7 +1,11 @@
 ---
-layout: page
+layout: sections
 title: Getting Involved
 permalink: /gettinginvolved/
+sections:
+  Cyber Security Club: "#cyber-security-club"
+  Hack Night: "#hack-night"
+  Milk Night: "#milk-night"
 ---
 # Cyber Security Club
 

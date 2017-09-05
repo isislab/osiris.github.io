@@ -1,7 +1,12 @@
 ---
-layout: page
+layout: sections
 title: Our Members
 permalink: /members/
+sections:
+  Current Leaders: "#current-leaders"
+  Hackers in Residence: "#hackers-in-residence"
+  Current Students: "#current-students"
+  Alumni: "#alumni"
 ---
 
 ## Current Leaders:  
@@ -9,7 +14,7 @@ President: Momopranto Amin
 Vice President: Chris Thompson  
 Secretary: Nick Gregory  
 
-# Hackers in residence
+# Hackers in Residence
 ## Brad Antoniewicz  
 Brad Antoniewicz works in Intel Security Foundstone’s security research division to uncover flaws in popular technologies. He is a contributing author to both the Hacking Exposed and Hacking Exposed: Wireless series of books and has authored and contributed to various internal/external Foundstone tools, training courses, whitepapers, and methodologies. Brad is also an adjunct professor at NYU Poly, teaching vulnerability analysis and exploitation.  
 ## Brandon Edwards  

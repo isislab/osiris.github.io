@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: sections
 title: Contact Us
 permalink: /contact/
+sections:
+  Lab Address: "#come-see-us-in-the-lab!"
 ---
 
 [IRC](http://webchat.freenode.net/?randomnick=1&channels=%23isislab)
